@@ -185,6 +185,10 @@ and (max-device-width : 736px) { .about-box {background-size:contain}; .contact-
   padding: 10vh;
 }
 
+.col-sm-7 > img {
+  max-height: 40vh;
+}
+
 .project-header {
   text-decoration: underline solid 5px;
   text-decoration-color: #365a93;
@@ -202,12 +206,16 @@ and (max-device-width : 736px) { .about-box {background-size:contain}; .contact-
 
 #arrow:hover {opacity: 1};
 
+.carousel-control-prev {
+  height: 3vw;
+}
+
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
    width: 1rem;
    height: 1rem;
    margin: 0;
-   border-radius: 50%;
+   border-radius: 50%; 
    border: 0;
    background: transparent; 
 }
@@ -227,6 +235,46 @@ ol.carousel-indicators li.active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
+}
+
+.first-project h1 > a {
+  color: black;
+  font-family: 'Roboto'; 
+  font-weight: 500;
+}
+
+.first-project > p {
+  color: black;
+  font-family: 'Roboto';  
+}
+
+.first-project > h3 {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;  
+}
+
+.first-project > h1 {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;  
+}
+
+.second-project h1 > a {
+  color: black;
+  font-family: 'Roboto'; 
+  font-weight: 500;
+}
+
+.second-project > p {
+  color: black;
+  font-family: 'Roboto';  
+}
+
+.second-project > h3 {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;  
 }
 
 .container-contact {
