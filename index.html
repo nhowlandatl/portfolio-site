@@ -14,182 +14,182 @@
     <!-- Bootstrap core CSS -->
 </head>
     <body>
-        <!-- page 1 -->
+        <!-- Home -->
         <div class="atlanta-box mx-auto">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
+            <nav class="navbar navbar-expand-sm fixed-top">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
                     <i class="fas fa-bars" style="color: black; font-size:4vh;"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" style="font-family: 'Montserrat'; color: #d9d9d9" href="#">ABOUT </a>
+                        <li class="nav-item active ml-auto">
+                            <a class="nav-link" style="font-family: 'Montserrat'; color: white" href="#about">ABOUT </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="font-family: 'Montserrat'; color: #d9d9d9" href="#">SKILLS</a>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" style="font-family: 'Montserrat'; color: white" href="#skills">SKILLS</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="font-family: 'Montserrat'; color: #d9d9d9" href="#">PROJECTS</a>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" style="font-family: 'Montserrat'; color: white" href="#projects">PROJECTS</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="font-family: 'Montserrat'; color: #d9d9d9" href="#">CONTACT</a>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" style="font-family: 'Montserrat'; color: white" href="#contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
               </nav>
-            <!-- need to change navbar margins -->
-            <!-- <nav class="navbar navbar-expand-sm fixed-top py-0">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                <div class="navbar-collapse collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" style="font-family: 'Montserrat'; color: #d9d9d9" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="font-family: 'Montserrat'; color: #d9d9d9" href="#">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="font-family: 'Montserrat'; color: #d9d9d9" href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav> -->
             <div class="my-name my-auto">
                 <p class="h2 text-left ml-5" style="font-family: 'Montserrat'; color: white; font-weight: bold">NICHOLAS HOWLAND</p>
                 <p class="h4 text-left ml-5" style="font-family: 'Montserrat'; color: white; font-weight: 200">FULL STACK DEVELOPER</p>
             </div>
             <div class="arrow mx-auto d-block">
-                <span></span>
-                <span></span>
-                <span></span>
+                <a href="#about">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                
             </div>
         </div>
         
-        <!-- begin page 2 -->
+        <!-- About section -->
         <!-- have it set so the active/currently viewed section is highlighted on the nav bar; jquery or similar? -->
-        <div class="about-box mx-auto px-5">
-            <div class="row" style="margin-top: 10vh; margin-bottom: 10vh">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-2" id="self-background">
-                    <img class="img-fluid" src="./IMG_3107.JPG" alt=""> 
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 my-auto" style="background-color: #3b3b3b">
-                    <h2 style="font-family: 'Roboto'; font-size: calc(11px + 1vw); color: white; font-weight: 600">I'm Nick, a full-stack software developer and former lawyer based out of Atlanta, GA. 
-                    </h2>
-                    <h3 style="font-family: 'Spartan'; font-size: calc(11px + 1vw); color: white; font-weight: 200">I was born and raised in Miami, FL. I completed my B.A. in English literature at the University of Miami in 2012, graduating Phi Beta Kappa with a 3.92 GPA. I then went on to receive my Juris Doctor from Emory University, and spent about two years working in real estate law before opting to pursue my passion for software development and IT.</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="skill-box mx-auto d-block">
-            <div class="mx-auto text-center" id="subskill-box" style="padding-top: 5vh; padding-bottom: 5vh;">
-                <h1 id="skill-set" style="font-family: 'Roboto'; font-size: calc(13px + 1vw); color: black; font-weight: 500">SKILL SET</h1>
-                <div class="container-skills mx-auto">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <img src="html_64px.png" alt="">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="javascript_100px.png" alt="">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="nodejs_64px.png" alt="">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="css_64px.png" alt="">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="react_native_64px.png" alt="">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="redux_64px.png" alt="">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="github_64px.png" alt="">
-                        </li>
-                        <li class="list-inline-item">
-                            <img src="sql_64px.png" alt="">
-                        </li>
-                        <li class="list-inline-item" style="color: #365a93; font-family: 'Roboto'; font-size: calc(13px + 1vw)">
-                            Express
-                        </li>
-                    </ul>
-                </div>
-                <div class="container mx-auto">
-                    <p style="font-family: 'Roboto'; font-size: calc(12px + 1vw); color: black; font-weight: 400; margin-bottom: 4vw">I am proficient in HTML, CSSS, JavaScript, React, Redux, MongoDB, Git, and AWS.</p>
-                    <h1 id="certifications" style="font-family: 'Roboto'; font-size: calc(13px + 1vw); color: black; font-weight: 500">CERTIFICATIONS</h1>
-                </div>
-                
-                <div class="certifications">
-                    <h3 style="font-family: 'Roboto'; font-size: calc(13px + 1vw); color: black; font-weight: 400">AWS Certified Solutions Architect (Associate)</h3>
-                    <h3 style="font-family: 'Roboto'; font-size: calc(13px + 1vw); color: black; font-weight: 400">AWS Certified Developer (Associate)</h3>          
-                </div>
-            </div>
-        </div>
-
-        <div class="projects-box mx-auto d-block">
-            <div class="project-header mx-auto text-center">
-                PROJECTS
-            </div>
-        </div>
-   
-        <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" style="background-color: white;; padding-bottom: 10vh;">
-            <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row mx-auto" style="margin-left: 5vh; margin-right: 2vh">
-                        <div class="col-sm-5 my-auto">
-                            <div class="first-project">
-                                <h1 class="text-center">The Price is Right</h1>
-                                <p style="text-align: justify">Full-stack web project deployed to Heroku that allows users to play a web-based version of the classic game "The Price is Right" by tasking registered users with guessing the correct price of items.</p>
-                                <h1 class="text-center">Technologies Used</h1>
-                                <p style="text-align: justify">HTML, CSS (Bootstrap), and JavaScript, NodeJS, Express, MongoDB.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-7 my-auto">
-                            <img class="img-fluid" src="price-right.png" alt="">
-                        </div>
+        <section id="about">
+            <div class="about-box mx-auto px-5">
+                <div class="row" style="margin-top: 10vh; margin-bottom: 10vh">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-2" id="self-background">
+                        <img class="img-fluid" src="./IMG_3107.JPG" alt=""> 
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row mx-auto" style="margin-left: 5vh; margin-right: 2vh">
-                        <div class="col-sm-5 my-auto">
-                            <div class="second-project">
-                                <h1 class="text-center">Twitch Stream Highlights</h1>
-                                <p style="text-align: justify">Front-end web project to search for and display Twitch.tv streams by viewer count using the Twitch API.</p>
-                                <h1 class="text-center">Technologies Used</h1>
-                                <p style="text-align: justify">HTML, CSS (Bootstrap), JavaScript, and Axios.js. </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-7 my-auto">
-                            <img class="img-fluid" src="twitch-site.png" alt="">  
-                        </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 my-auto" style="background-color: #3b3b3b">
+                        <h2 style="font-family: 'Roboto'; font-size: calc(11px + 1vw); color: white; font-weight: 600">I'm Nick, a full-stack software developer and former lawyer based out of Atlanta, GA. 
+                        </h2>
+                        <h3 style="font-family: 'Spartan'; font-size: calc(11px + 1vw); color: white; font-weight: 200">I was born and raised in Miami, FL. I completed my B.A. in English literature at the University of Miami in 2012, graduating Phi Beta Kappa with a 3.92 GPA. I then went on to receive my Juris Doctor from Emory University, and spent about two years working in real estate law before opting to pursue my passion for software development and IT.</h3>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <i class="fas fa-angle-left fa-lg" id="arrow"></i>
-                <span class="sr-only">Previous</span> 
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <i class="fas fa-angle-right fa-lg" id="arrow"></i>
-                <span class="sr-only">Previous</span> 
-            </a>
-        </div>
-
-        <div class="container-contact mx-auto">
-            <h1>CONTACT ME</h1>
-            <div class="contact-info">
-                <h2>EMAIL ADDRESS</h2>
-                <a href="mailto:Nichols.d.howland@alumni.emory.edu">Nichols.d.howland@alumni.emory.edu</a>
+        </section>
+        
+        <!-- Skill section -->
+        <section id="skills">
+            <div class="skill-box mx-auto d-block">
+                <div class="mx-auto text-center" id="subskill-box" style="padding-top: 5vh; padding-bottom: 5vh;">
+                    <h1 id="skill-set" style="font-family: 'Roboto'; font-size: calc(13px + 1vw); color: black; font-weight: 500">SKILL SET</h1>
+                    <div class="container-skills mx-auto">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <img src="html_64px.png" alt="">
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="javascript_100px.png" alt="">
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="nodejs_64px.png" alt="">
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="css_64px.png" alt="">
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="react_native_64px.png" alt="">
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="redux_64px.png" alt="">
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="github_64px.png" alt="">
+                            </li>
+                            <li class="list-inline-item">
+                                <img src="sql_64px.png" alt="">
+                            </li>
+                            <li class="list-inline-item" style="color: #365a93; font-family: 'Roboto'; font-size: calc(13px + 1vw)">
+                                Express
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container mx-auto">
+                        <p style="font-family: 'Roboto'; font-size: calc(12px + 1vw); color: black; font-weight: 400; margin-bottom: 4vw">I am proficient in HTML, CSSS, JavaScript, React, Redux, MongoDB, Git, and AWS.</p>
+                        <h1 id="certifications" style="font-family: 'Roboto'; font-size: calc(13px + 1vw); color: black; font-weight: 500">CERTIFICATIONS</h1>
+                    </div>
+                    
+                    <div class="certifications">
+                        <h3 style="font-family: 'Roboto'; font-size: calc(13px + 1vw); color: black; font-weight: 400">AWS Certified Solutions Architect (Associate)</h3>
+                        <h3 style="font-family: 'Roboto'; font-size: calc(13px + 1vw); color: black; font-weight: 400">AWS Certified Developer (Associate)</h3>          
+                    </div>
+                </div>
             </div>
-            
-        </div>
-  
+        </section>
+        
+        <!-- Project section -->
+        <section id="projects">
+            <div class="projects-box mx-auto d-block">
+                <div class="project-header mx-auto text-center">
+                    PROJECTS
+                </div>
+            </div>
+       
+            <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" style="background-color: white;; padding-bottom: 8vh;">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row mx-auto" style="margin-left: 5vh; margin-right: 2vh">
+                            <div class="col-sm-5 my-auto">
+                                <div class="first-project">
+                                    <h1 class="text-center">The Price is Right</h1>
+                                    <p style="text-align: justify">Full-stack web project deployed to Heroku that allows users to play a web-based version of the classic game "The Price is Right" by tasking registered users with guessing the correct price of items.</p>
+                                    <h1 class="text-center">Technologies Used</h1>
+                                    <p style="text-align: justify">HTML, CSS (Bootstrap), and JavaScript, NodeJS, Express, MongoDB.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-7 my-auto">
+                                <img class="img-fluid" src="price-right.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mx-auto" style="margin-left: 5vh; margin-right: 2vh">
+                            <div class="col-sm-5 my-auto">
+                                <div class="second-project">
+                                    <h1 class="text-center">Twitch Stream Highlights</h1>
+                                    <p style="text-align: justify">Front-end web project to search for and display Twitch.tv streams by viewer count using the Twitch API.</p>
+                                    <h1 class="text-center">Technologies Used</h1>
+                                    <p style="text-align: justify">HTML, CSS (Bootstrap), JavaScript, and Axios.js. </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-7 my-auto">
+                                <img class="img-fluid" src="twitch-site.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <i class="fas fa-angle-left fa-lg" id="arrow"></i>
+                    <span class="sr-only">Previous</span> 
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <i class="fas fa-angle-right fa-lg" id="arrow"></i>
+                    <span class="sr-only">Previous</span> 
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+            <div class="container-contact mx-auto d-flex" id="contact">
+                <h1>CONTACT ME</h1>
+                <div class="contact-info">
+                    <h2>EMAIL ADDRESS</h2>
+                    <a href="mailto:Nichols.d.howland@alumni.emory.edu">Nicholas.d.howland@alumni.emory.edu</a>
+                </div>
+                <div class="contact-icons mx-auto d-block">
+                    <a href="https://www.linkedin.com/in/nicholas-howland-6553b0137/" target="_blank">
+                        <img src="linkedin_64px-white.png" alt="">
+                    </a>
+                    <a href="https://github.com/nhowlandatl" target="_blank">
+                        <img src="github_64px-white.png" alt="">
+                    </a>
+                </div>
+            </div>
+        <!-- Javascript CDN files -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
