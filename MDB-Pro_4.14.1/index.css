@@ -1,0 +1,182 @@
+html {
+  /* scroll-snap-type: y mandatory;  */
+  font-size: 16px;
+  /* height: 100%;  */
+}
+
+body {
+  background-color: #3b3b3b;
+  /* min-height: 100%;  */
+  max-width: 2100px;
+  border-right: solid 1vw; 
+  opacity: 0.95;
+  border-image: 
+  linear-gradient(
+    to right, 
+   rgb(31, 44, 48), 
+    rgba(54, 90, 147, 1)
+  ) 1 55%;
+}
+
+.navbar {
+  background: transparent;  
+}
+
+.fixed-top.scrolled {
+  background-color:#3b3b3b !important;
+  transition: background-color 200ms linear;
+}
+
+.fixed-top.scrolled .nav-link {
+  color:#3b3b3b;
+}
+
+.navbar-nav > li > a {
+  display: flex;
+  align-items: center;   
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+
+.atlanta-box {
+    background-image: url(Atlanta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-color: gray;
+    background-position: center; 
+    max-width: 2100px;
+    width: 100%;
+    /* why does 100vh basically break the entire webpage but fixed pixels are fine? */
+    min-height: 100vh;
+    height: 100%;
+    margin-bottom: 2vh;
+    /* scroll-snap-align: start;  */
+    display: flex;
+    flex-direction: column;
+  }
+
+.arrow {
+  margin-bottom: 10vh;
+}
+
+.arrow span {
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  border-bottom: 1vw solid white;
+  border-right: 1vw solid white;
+  transform: rotate(45deg);
+  margin: -1vw;
+  animation: animate 4s infinite;
+  animation-duration: 3s;
+}
+.arrow span:nth-child(2){
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+  }
+} 
+
+.about-box {
+  /* scroll-snap-align: start;  */
+  color: white;
+  max-width: 2100px;
+  /* min-height: 100vh;   */
+  height: 100%;
+  /* background-image: url(coded-stuff-on-screen-CD9PQJH.jpg);  */
+  background-size: cover; 
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;  */
+  background-color: #3b3b3b; 
+  background-position: center; 
+  margin-bottom: 2vh;
+  display: flex; 
+  flex-direction: column; 
+  /* border-right: solid 1vw; 
+  opacity: 0.95;
+  border-image: 
+  linear-gradient(
+    to right, 
+   rgb(31, 44, 48), 
+    rgba(54, 90, 147, 1)
+  ) 1 55%; */
+}
+
+
+.skill-box {
+  /* scroll-snap-align: start;   */
+  color: white;
+  max-width: 2100px;
+  /* min-height: 100vh;  */
+  height: 100%;
+  margin-bottom: 1vh;
+  display: flex; 
+  flex-direction: column;
+  /* border-right: solid 1vw; 
+  opacity: 0.95;
+  border-image: 
+  linear-gradient(
+    to right, 
+   rgb(31, 44, 48), 
+    rgba(54, 90, 147, 1)
+  ) 1 55%; */
+}
+
+#subskill-box{
+  background-color: gray;
+} 
+
+.container-skills {
+  border-top: solid 5px #365a93;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.certifications {
+  border-top: solid 5px #365a93;
+}
+      
+
+/* #bg-column {
+  min-height: 600px; 
+  background-image: url(skills-bg.png);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed; 
+}
+
+#left-column {
+  min-height: 600px; 
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+#left-column > p {
+  border-bottom: 5px solid #365a93;
+} */
