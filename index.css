@@ -68,7 +68,7 @@ and (max-device-width : 736px) { .about-box {background-size:contain}; .contact-
     background-image: url(Atlanta.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll; 
+    background-attachment: fixed; 
     background-color: gray;
     background-position: center; 
     max-width: 1900px;
@@ -233,7 +233,7 @@ ol.carousel-indicators li.active {
   background-image: url(contact-background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll; 
+  background-attachment: fixed; 
   background-color: gray;
   background-position: center; 
   /* max-width: 2100px; */
