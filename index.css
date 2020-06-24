@@ -64,7 +64,7 @@ body {
     background-image: url(Atlanta.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: scroll; 
     background-color: gray;
     background-position: center; 
     max-width: 1900px;
@@ -229,7 +229,7 @@ ol.carousel-indicators li.active {
   background-image: url(contact-background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: scroll; 
   background-color: gray;
   background-position: center; 
   /* max-width: 2100px; */
