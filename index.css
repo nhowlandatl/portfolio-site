@@ -20,6 +20,10 @@ body {
   ) 1 55%; */
 }
 
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { .about-box {background-size:contain}; .contact-box {background-size:contain} }
+
 .atlanta-box, .contact-box { @media (max-width: @iphone-screen) {
   background-attachment: scroll;
   }
