@@ -29,16 +29,6 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
   }
 } */
 
-@media (max-width: 768px) {
-  .about-box {
-    background: url(sql_64px.png) no-repeat center center scroll; 
-  }
-  .container-contact {
-    background: url(price-right.png) no-repeat center center scroll;
-  }
-}
-
-
 .navbar {
   background: transparent;  
 }
@@ -361,3 +351,12 @@ ol.carousel-indicators li.active {
 #left-column > p {
   border-bottom: 5px solid #365a93;
 } */
+
+@media (max-width: 768px) {
+  .about-box {
+    background: url(sql_64px.png) no-repeat center center scroll; 
+  }
+  .container-contact {
+    background: url(price-right.png) no-repeat center center scroll;
+  }
+}
