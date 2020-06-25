@@ -20,14 +20,23 @@ body {
   ) 1 55%; */
 }
 
-@media only screen 
+/* @media only screen 
 and (min-device-width : 414px) 
-and (max-device-width : 736px) { .about-box {background-size:contain; background-attachment: scroll}; .contact-box {background-size:contain; background-attachment: scroll;} }
+and (max-device-width : 736px) { .about-box {background-size:contain; background-attachment: scroll}; .contact-box {background-size:contain; background-attachment: scroll;} } */
 
 /* .atlanta-box, .contact-box { @media (max-width: @iphone-screen) {
   background-attachment: scroll;
   }
 } */
+
+@media (max-width: 768px) {
+  .about-box {
+    background: url(Atlanta.png) no-repeat center center scroll; 
+  }
+  .container-contact {
+    background: url(contact-background.png) no-repeat center center scroll;
+  }
+}
 
 
 .navbar {
@@ -74,8 +83,8 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
     max-width: 1900px;
     width: 100%; 
     /* why does 100vh basically break the entire webpage but fixed pixels are fine? */
+    height: 100%;
     /* min-height: 100vh; */
-    min-height: 100vh;
     margin-bottom: 2vh;
     /* scroll-snap-align: start;  */
     display: flex;
