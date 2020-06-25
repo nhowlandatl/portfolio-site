@@ -73,7 +73,7 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
     max-width: 1900px;
     width: 100%; 
     /* why does 100vh basically break the entire webpage but fixed pixels are fine? */
-    height: 100vh;
+    height: 100%;
     /* min-height: 100vh; */
     margin-bottom: 2vh;
     /* scroll-snap-align: start;  */
