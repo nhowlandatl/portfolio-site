@@ -359,6 +359,7 @@ ol.carousel-indicators li.active {
   }
   .container-contact {
     background: url(contact-background.png) no-repeat center center scroll;
+    background-size: cover;
   }
 }
 
