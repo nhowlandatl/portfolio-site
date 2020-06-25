@@ -354,9 +354,11 @@ ol.carousel-indicators li.active {
 
 @media (max-width: 768px) {
   .atlanta-box {
-    background: url(Atlanta.png) no-repeat center fixed scroll; 
+    background: url(Atlanta.png) no-repeat center center scroll; 
   }
   .container-contact {
-    background: url(contact-background.png) no-repeat center fixed scroll;
+    background: url(contact-background.png) no-repeat center center scroll;
   }
 }
+
+/* no-repeat center center scroll;  */
