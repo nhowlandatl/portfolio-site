@@ -180,7 +180,7 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
   /* height: 100%; */
   display: flex; 
   flex-direction: column; 
-  padding: 3vh; 
+  padding: 8vh; 
 }
 
 /* .col-sm-7 > img {
@@ -190,6 +190,7 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
 .project-header {
   text-decoration: underline solid 5px;
   text-decoration-color: #365a93;
+  margin-bottom: 1vh;
   /* font-family: 'Roboto';  */
   /* font-size: calc(12px + 2vh);  */
   /* font-weight: 500;  */
@@ -197,7 +198,7 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
 
 .carousel-control-prev,
 .carousel-control-next{
-  bottom: 20%;
+  bottom: 45%; 
 }
 
 /* #arrow {
