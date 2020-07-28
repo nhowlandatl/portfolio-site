@@ -6,10 +6,10 @@ html {
 }
 
 body {
-  background-color: #3b3b3b;
+  background-color: #3b3b3b;  
   height: 100%; 
-  max-width: 1900px;
-  margin: 0px auto;
+  max-width: 1900px; 
+  margin: 0px auto; 
   /* border-right: solid 1vw; 
   opacity: 0.95;
   border-image: 
@@ -30,16 +30,16 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
 } */
 
 .navbar {
-  background: transparent;  
+  background: transparent;
 }
 
 .fixed-top.scrolled {
-  background-color:#3b3b3b !important;
+  background-color:#3b3b3b !important; 
   transition: background-color 200ms linear;
 }
 
 .fixed-top.scrolled .nav-link {
-  color:#3b3b3b;
+  color:#3b3b3b; 
 }
 
 .navbar-nav > li > a {
@@ -49,7 +49,7 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
   padding-top: 3vh;
   padding-bottom: 3vh;
   line-height: 3vh;
-  font-size: calc(11px + 1vw)
+  font-size: calc(11px + 1vh)
 }
 
 .navbar-nav > li > a:hover {
@@ -90,12 +90,12 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
 
 .arrow span {
   display: block;
-  width: 3vw;
-  height: 3vw;
-  border-bottom: 1vw solid white;
-  border-right: 1vw solid white;
+  width: 3vh;
+  height: 3vh;
+  border-bottom: 1vh solid white;
+  border-right: 1vh solid white;
   transform: rotate(45deg);
-  margin: -1vw;
+  margin: -1vh;
   animation: animate 4s infinite;
   animation-duration: 3s;
 }
@@ -144,7 +144,6 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
   ) 1 55%; */
 }
 
-
 .skill-box {
   /* scroll-snap-align: start;   */
   color: white;
@@ -170,33 +169,38 @@ and (max-device-width : 736px) { .about-box {background-size:contain; background
   padding-top: 3vh;
   color: black;
   font-family: 'Roboto'; 
-  font-size: calc(13px + 1vw); 
+  font-size: calc(13px + 1vh); 
   font-weight: 500;
 }
       
 .projects-box {
-  color: black;
-  max-width: 1900px;
-  background-color: white;
+  color: black; 
+  max-width: 1900px; 
+  background-color: white;  
   /* height: 100%; */
   display: flex; 
-  flex-direction: column;
-  padding: 10vh;
+  flex-direction: column; 
+  padding: 3vh; 
 }
 
-.col-sm-7 > img {
+/* .col-sm-7 > img {
   max-height: 40vh;
-}
+} */
 
 .project-header {
   text-decoration: underline solid 5px;
   text-decoration-color: #365a93;
-  font-family: 'Roboto'; 
-  font-size: calc(16px + 2vw); 
-  font-weight: 500;
+  /* font-family: 'Roboto';  */
+  /* font-size: calc(12px + 2vh);  */
+  /* font-weight: 500;  */
 }
 
-#arrow {
+.carousel-control-prev,
+.carousel-control-next{
+  bottom: 20%;
+}
+
+/* #arrow {
   background-color: #365a93;
   padding: 1vh;
   opacity: 0.9;
@@ -227,9 +231,9 @@ ol.carousel-indicators li {
 
 ol.carousel-indicators li.active {
    background: #365a93;
-}
+} */
 
-.carousel-background {
+/* .carousel-background {
     background-image: url(twitch-site.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -274,7 +278,7 @@ ol.carousel-indicators li.active {
   color: black;
   font-family: 'Roboto';
   font-weight: 400;  
-}
+}  */
 
 .container-contact {
   background-image: url(contact-background.png);
@@ -297,17 +301,25 @@ ol.carousel-indicators li.active {
   text-decoration: underline solid 5px;
   text-decoration-color: #365a93;
   font-family: 'Roboto'; 
-  font-size: calc(16px + 2vw); 
+  font-size: calc(14px + 2vh); 
   font-weight: 500;
   margin-left: 5vw;
   margin-top: 5vw;
   /* align-self: flex-start;  */
 }
 
-.contact-info h2, a {
+.contact-info h2 {
   color: white;
   font-family: 'Roboto'; 
-  font-size: calc(16px + 1vw); 
+  font-size: calc(12px + 2vh); 
+  font-weight: 300;
+  margin-left: 2vh;
+}
+
+.contact-info > a {
+  color: white;
+  font-family: 'Roboto'; 
+  font-size: calc(12px + 2vh); 
   font-weight: 300;
   margin-left: 2vh;
 }
